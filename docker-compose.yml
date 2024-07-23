@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      ALIGNMENT: "left"
+      FOOTER_TEXT: "Powered by <a href='https://github.com/knsrinath/easyserve'>EasyServe</a>"
+      THEME: "default"
+    volumes:
+      - ./files:/var/www/html/files

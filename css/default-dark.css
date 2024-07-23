@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #e0e0e0; /* Light gray text color */
+	background-color: #121212; /* Very dark background color */
+}
+
+#wrapper {
+	max-width: 600px;
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+body#left {
+	text-align: left;
+}
+
+body#left #wrapper {
+	margin: 0 20px;
+}
+
+h1 {
+	font-size: 21px;
+	padding: 0 10px;
+	margin: 20px 0 0;
+	font-weight: bold;
+	color: #ffffff; /* White for headers */
+}
+
+h2 {
+	font-size: 14px;
+	padding: 0 10px;
+	margin: 10px 0 0;
+	color: #b0b0b0; /* Light gray for subheaders */
+	font-weight: normal;
+}
+
+a {
+	color: #1e90ff; /* Bright blue for links */
+	text-decoration: none;
+}
+
+a:hover {
+	color: #87cefa; /* Light blue on hover */
+	text-decoration: underline;
+}
+
+ul#header {
+	margin-top: 20px;
+}
+
+ul li {
+	display: block;
+	list-style-type: none;
+	overflow: hidden;
+	padding: 10px;
+}
+
+ul li:hover {
+	background-color: #333333; /* Dark gray background on hover */
+}
+
+ul li .date {
+	text-align: center;
+	width: 120px;
+}
+
+ul li .size {
+	text-align: right;
+	width: 90px;
+}
+
+ul li .date,
+ul li .size {
+	float: right;
+	font-size: 12px;
+	display: block;
+	color: #b0b0b0; /* Light gray for date and size */
+}
+
+ul#header li {
+	font-size: 11px;
+	font-weight: bold;
+	border-bottom: 1px solid #444444; /* Dark gray border for header */
+}
+
+ul#header li:hover {
+	background-color: transparent;
+}
+
+ul#header li * {
+	color: #e0e0e0; /* Light gray for header text */
+	font-size: 11px;
+}
+
+ul#header li a:hover {
+	color: #87cefa; /* Light blue for header link hover */
+}
+
+ul#header li .asc span,
+ul#header li .desc span {
+	padding-right: 15px;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+ul li.item {
+	border-top: 1px solid #333333; /* Dark gray border for items */
+}
+
+ul li.item:first-child {
+	border-top: none;
+}
+
+ul li.item .name {
+	font-weight: bold;
+	color: #1e90ff; /* Bright blue for item names */
+}
+
+ul li.item .directory,
+ul li.item .file {
+	padding-left: 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #e0e0e0; /* Light gray for directory and file */
+}
+
+#footer {
+	color: #b0b0b0; /* Light gray for footer text */
+	font-size: 11px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+	text-align: left;
+}
+
+#footer a {
+	color: #1e90ff; /* Bright blue for footer links */
+	font-weight: bold;
+}
+
+#footer a:hover {
+	color: #87cefa; /* Light blue for footer link hover */
+}
