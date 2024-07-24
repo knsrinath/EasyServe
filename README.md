@@ -18,6 +18,3 @@ cd easyserve
 docker compose build
 docker compose up -d
 ```
-
-### Credits
-The php script is inspired from [Minixed](https://github.com/lorenzos/Minixed/).
