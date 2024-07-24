@@ -20,4 +20,4 @@ docker compose up -d
 ```
 
 ### Credits
-The php script is a modified version of [Minixed](https://github.com/lorenzos/Minixed/)
+The php script is ispired from [Minixed](https://github.com/lorenzos/Minixed/).
