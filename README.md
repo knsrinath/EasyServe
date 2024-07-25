@@ -9,7 +9,8 @@ An easy-to-use Docker container for sharing files online. It's simple to set up 
 |----------------------	|-----------------------------------------	|
 | ALIGNMENT            	| center, left                            	|
 | FOOTER_TEXT          	| Any text                                	|
-| THEME                	| default, solarized, gruvbox, catppuccin 	|
+| COLOR_PALETTE        	| solarized, gruvbox                        |
+| THEME                	| dark, light                              	|
 
 ### Installation
 ```bash
