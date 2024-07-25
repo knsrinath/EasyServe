@@ -12,12 +12,12 @@ An easy-to-use Docker container for sharing files online. It's simple to set up 
 | COLOR_PALETTE        	| solarized, gruvbox                        |
 | THEME                	| dark, light                              	|
 
-### Installation
+### Installation:
 ```bash
 git clone https://github.com/knsrinath/easyserve.git
 cd easyserve
 docker compose build
 docker compose up -d
 ```
-### Credits
+### Credits:
 The php script is inspired from [Minixed](https://github.com/lorenzos/Minixed/)

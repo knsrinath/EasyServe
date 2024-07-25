@@ -7,6 +7,6 @@ services:
       ALIGNMENT: "left"
       FOOTER_TEXT: "Powered by <a href='https://github.com/knsrinath/easyserve'>EasyServe</a>"
       COLOR_PALETTE: "solarized"
-      THEME: "light"
+      THEME: "dark"
     volumes:
       - ./files:/var/www/html/files
